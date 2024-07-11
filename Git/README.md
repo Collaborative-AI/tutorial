@@ -5,6 +5,10 @@
 2. [Installation of Git](#installation-of-git)
 3. [Configuration of Username and Password](#configuration-of-username-and-password)
 4. [Basic Git Commands](#basic-git-commands)
+    - [git clone](#git-clone)
+    - [git pull](#git-pull)
+    - [git branch](#git-branch)
+    - [git checkout](#git-checkout)
     - [git status](#git-status)
     - [git add --all](#git-add---all)
     - [git reset](#git-reset)
@@ -18,7 +22,7 @@ Git is a distributed version control system used to track changes in source code
 ## Installation of Git
 ### Windows
 1. Download the Git installer from [git-scm.com](https://git-scm.com/downloads).
-2. Run the installer and follow the on-screen instructions.
+2. Run the installer and follow the on-screen instructions (default is fine).
 3. To verify the installation, open Command Prompt and type:
    ```bash
    git --version
@@ -56,14 +60,73 @@ Git is a distributed version control system used to track changes in source code
    ```
 
 ## Configuration of Username and Password
-After installing Git, you need to set up your username and email address. This is important because every Git commit uses this information.
+After installing Git, you need to set up your username and email address. This is important because every Git commit uses this information. Additionally, when you push commits to GitHub, these details are used to attribute the commits to your GitHub account.
 
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
-```
+1. Set your username:
+   ```bash
+   git config --global user.name "Your Name"
+   ```
+
+2. Set your email address:
+   ```bash
+   git config --global user.email "your.email@example.com"
+   ```
+
+3. Configure Git to store your credentials:
+   ```bash
+   git config --global credential.helper store
+   ```
+
+4. The next time you perform a Git operation that requires authentication (e.g., `git push`), Git will prompt you for your username and password and store them in a plain text file in your home directory (`~/.git-credentials`).
+
+For more information on connecting Git with GitHub, refer to the [GitHub documentation](https://docs.github.com/en/get-started/quickstart/set-up-git).
 
 ## Basic Git Commands
+
+### git clone
+Clones a repository into a newly created directory. This is useful for copying a remote repository to your local machine.
+
+```bash
+git clone <repository_URL>
+```
+
+### git pull
+Fetches from and integrates with another repository or a local branch. This is used to update your local repository with the latest changes from the remote repository (e.g. GitHub).
+
+```bash
+git pull
+```
+
+### git branch
+Lists, creates, or deletes branches. Branches are useful for developing features in isolation from each other.
+
+To list all branches:
+```bash
+git branch
+```
+
+To create a new branch:
+```bash
+git branch <branch_name>
+```
+
+To delete a branch:
+```bash
+git branch -d <branch_name>
+```
+
+### git checkout
+Switches branches or restores working tree files. This is useful for moving between different branches and commits.
+
+To switch to an existing branch:
+```bash
+git checkout <branch_name>
+```
+
+To create and switch to a new branch:
+```bash
+git checkout -b <branch_name>
+```
 
 ### git status
 Shows the working tree status. It’s useful for seeing what changes have been staged, which haven’t, and which files aren’t being tracked by Git.
@@ -94,11 +157,33 @@ git commit -m "[some message here]"
 ```
 
 ### git push
-Uploads local repository content to a remote repository.
+Uploads local repository content to a remote repository (e.g. GitHub). This requires setting up a remote repository on GitHub and connecting your local repository to it. If you clone a repo from GitHub, it is automatically connected.
 
 ```bash
 git push
 ```
+
+#### Steps to Push to GitHub:
+1. **Create a repository on GitHub:**
+   - Go to [GitHub](https://github.com/) and log in.
+   - Click on the "+" icon in the top-right corner and select "New repository".
+   - Enter a repository name and click "Create repository".
+
+2. **Add the GitHub repository as a remote:**
+   - Copy the URL of the GitHub repository.
+   - In your local repository, add the remote repository:
+
+   ```bash
+   git remote add origin <repository_URL>
+   ```
+
+3. **Push your changes to GitHub:**
+
+   ```bash
+   git push -u origin main
+   ```
+
+By following these steps, you can connect your local repository to GitHub and push your changes to the remote repository.
 
 ## Merging One Repository into Another
 
@@ -131,4 +216,3 @@ To merge one repository into another and preserve commits, follow these steps:
    ```
 
 By following these steps, you ensure that the commit history from the source repository is preserved in the destination repository.
-
