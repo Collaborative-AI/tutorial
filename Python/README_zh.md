@@ -1,7 +1,7 @@
 ### 使用 PyCharm 和 Anaconda 设置 Python 开发环境
 <h4 align="center">
     <p>
-        <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Git/README.md">English</a>
+        <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Python/README.md">English</a>
         <b>简体中文</b> |
     </p>
 </h4>

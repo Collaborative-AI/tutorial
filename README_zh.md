@@ -1,8 +1,8 @@
 # Tutorial
 <h4 align="center">
     <p>
-        <b>English</b> |
-        <a href="https://github.com/Collaborative-AI/tutorial/blob/main/README_zh.md">简体中文</a>
+        <a href="https://github.com/Collaborative-AI/tutorial/blob/main/README.md">English</a>
+        <b>简体中文</b> |
     </p>
 </h4>
 
