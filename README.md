@@ -10,9 +10,9 @@ Welcome to the Collaborative-AI tutorial repository! This repository contains se
 
 ## Table of Contents
 
-1. [Git Tutorial](#git)
-2. [Literature Search Tutorial](#literature-search)
-3. [Python Tutorial](#python)
+1. [Git](#git)
+2. [Literature Search](#literature-search)
+3. [Python](#python)
 
 ## Contents
 

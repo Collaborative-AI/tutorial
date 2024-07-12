@@ -11,9 +11,9 @@
 
 ## 目录
 
-1. [Git 教程](#git)
-2. [文献检索教程](#文献检索)
-3. [Python 教程](#python)
+1. [Git](#git)
+2. [文献调研](#文献调研)
+3. [Python](#python)
 
 ## 内容
 
@@ -26,7 +26,7 @@
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Git/README_zh.md">简体中文</a>
 </p>
 
-### 文献检索
+### 文献调研
 
 了解如何使用各种工具和数据库有效地检索学术文献。本教程涵盖了进行全面文献综述的方法和策略。
 

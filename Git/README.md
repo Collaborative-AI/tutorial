@@ -6,6 +6,7 @@
     </p>
 </h4>
 
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Installation of Git](#installation-of-git)
@@ -21,6 +22,7 @@
     - [git commit -m "[some message here]"](#git-commit--m-some-message-here)
     - [git push](#git-push)
 5. [Merging One Repository into Another](#merging-one-repository-into-another)
+6. [Best Practices](#best-practices)
 
 ## Introduction
 Git is a distributed version control system used to track changes in source code during software development. GitHub is a web-based platform that uses Git and provides additional features such as collaboration, code review, and project management. This tutorial will guide you through the basics of using Git and GitHub.
@@ -222,3 +224,11 @@ To merge one repository into another and preserve commits, follow these steps:
    ```
 
 By following these steps, you ensure that the commit history from the source repository is preserved in the destination repository.
+
+## Best Practices
+
+### Use a .gitignore Template
+To avoid pushing unnecessary files (such as OS-specific files, IDE config files, and build artifacts) to your repository, always use a `.gitignore` file. GitHub provides a collection of useful `.gitignore` templates for different programming languages and development environments. You can refer to [this example .gitignore file for Python](https://github.com/diaoenmao/RPipe/blob/main/.gitignore).
+
+### Avoid Pushing Datasets and Output Files
+Avoid pushing large datasets and output files to your GitHub repository. Use a `.gitignore` file to avoid pushing these files to your repository, ensuring that your repository remains clean and efficient.
