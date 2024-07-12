@@ -1,12 +1,10 @@
+### 使用 PyCharm 和 Anaconda 设置 Python 开发环境
 <h4 align="center">
     <p>
         <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Git/README.md">English</a>
         <b>简体中文</b> |
     </p>
 </h4>
-
-
-### 使用 PyCharm 和 Anaconda 设置 Python 开发环境
 
 本教程将指导您使用 PyCharm 和 Anaconda 设置一个强大的 Python 开发环境。我们将介绍不同操作系统的安装步骤，验证现有的 Python 安装，并配置 PyCharm 以实现高效编码。
 

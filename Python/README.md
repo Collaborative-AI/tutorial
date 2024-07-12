@@ -1,3 +1,4 @@
+### Setting Up a Python Development Environment with PyCharm and Anaconda
 <h4 align="center">
     <p>
         <b>English</b> |
@@ -5,8 +6,6 @@
     </p>
 </h4>
 
-
-### Setting Up a Python Development Environment with PyCharm and Anaconda
 
 This tutorial will guide you through setting up a robust Python development environment using PyCharm and Anaconda. We'll cover installation steps for different operating systems, verify your existing Python installations, and configure PyCharm for efficient coding.
 
