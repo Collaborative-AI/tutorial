@@ -1,3 +1,11 @@
+<h4 align="center">
+    <p>
+        <b>English</b> |
+        <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Git/README_zh.md">简体中文</a>
+    </p>
+</h4>
+
+
 # Git
 
 ## Table of Contents
