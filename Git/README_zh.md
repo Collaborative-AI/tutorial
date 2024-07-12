@@ -25,7 +25,7 @@
 6. [最佳实践](#最佳实践)
 
 ## 简介
-Git 是一个分布式版本控制系统，用于在软件开发过程中跟踪源代码的更改。GitHub 是一个基于 Web 的平台，使用 Git 并提供额外的功能，如协作、代码审查和项目管理。本教程将指导您了解使用 Git 和 GitHub 的基础知识。
+Git 是一个分布式版本控制系统，用于在软件开发过程中跟踪源代码的更改。GitHub 是一个基于 Web 的平台，使用 Git 并提供额外的功能，如协作、代码审查和项目管理。本教程将指导你了解使用 Git 和 GitHub 的基础知识。
 
 ## Git 的安装
 ### Windows
@@ -68,24 +68,24 @@ Git 是一个分布式版本控制系统，用于在软件开发过程中跟踪�
    ```
 
 ## 配置用户名和密码
-安装 Git 后，您需要设置您的用户名和电子邮件地址。这很重要，因为每个 Git 提交都会使用这些信息。此外，当您将提交推送到 GitHub 时，这些详细信息将用于将提交归属于您的 GitHub 帐户。
+安装 Git 后，你需要设置你的用户名和电子邮件地址。这很重要，因为每个 Git 提交都会使用这些信息。此外，当你将提交推送到 GitHub 时，这些详细信息将用于将提交归属于你的 GitHub 帐户。
 
-1. 设置您的用户名：
+1. 设置你的用户名：
    ```bash
    git config --global user.name "Your Name"
    ```
 
-2. 设置您的电子邮件地址：
+2. 设置你的电子邮件地址：
    ```bash
    git config --global user.email "your.email@example.com"
    ```
 
-3. 配置 Git 以存储您的凭据：
+3. 配置 Git 以存储你的凭据：
    ```bash
    git config --global credential.helper store
    ```
 
-4. 下次执行需要身份验证的 Git 操作（例如 `git push`）时，Git 会提示您输入用户名和密码，并将它们存储在主目录中的纯文本文件中（`~/.git-credentials`）。
+4. 下次执行需要身份验证的 Git 操作（例如 `git push`）时，Git 会提示你输入用户名和密码，并将它们存储在主目录中的纯文本文件中（`~/.git-credentials`）。
 
 有关将 Git 与 GitHub 连接的更多信息，请参阅 [GitHub 文档](https://docs.github.com/en/get-started/quickstart/set-up-git)。
 
@@ -165,7 +165,7 @@ git commit -m "[some message here]"
 ```
 
 ### git push
-将本地仓库内容上传到远程仓库（例如 GitHub）。这需要在 GitHub 上设置一个远程仓库并将本地仓库连接到它。如果您从 GitHub 克隆了一个仓库，它会自动连接。
+将本地仓库内容上传到远程仓库（例如 GitHub）。这需要在 GitHub 上设置一个远程仓库并将本地仓库连接到它。如果你从 GitHub 克隆了一个仓库，它会自动连接。
 
 ```bash
 git push
@@ -191,7 +191,7 @@ git push
    git push -u origin main
    ```
 
-通过这些步骤，您可以将本地仓库连接到 GitHub 并将更改推送到远程仓库。
+通过这些步骤，你可以将本地仓库连接到 GitHub 并将更改推送到远程仓库。
 
 ## 合并一个仓库到另一个仓库
 
@@ -223,12 +223,12 @@ git push
    git push
    ```
 
-通过这些步骤，您可以确保源仓库的提交历史记录保留在目标仓库中。
+通过这些步骤，你可以确保源仓库的提交历史记录保留在目标仓库中。
 
 ## 最佳实践
 
 ### 使用 .gitignore 模板
-要避免将不必要的文件（如操作系统特定文件、IDE 配置文件和构建工件）推送到您的仓库，请始终使用 `.gitignore` 文件。GitHub 提供了不同编程语言和开发环境的 `.gitignore` 模板集合。您可以参考[这个用于 Python 的 .gitignore 文件示例](https://github.com/diaoenmao/RPipe/blob/main/.gitignore)。
+要避免将不必要的文件（如操作系统特定文件、IDE 配置文件和构建工件）推送到你的仓库，请始终使用 `.gitignore` 文件。GitHub 提供了不同编程语言和开发环境的 `.gitignore` 模板集合。你可以参考[这个用于 Python 的 .gitignore 文件示例](https://github.com/diaoenmao/RPipe/blob/main/.gitignore)。
 
 ### 避免推送数据集和输出文件
-避免将大数据集和输出文件推送到您的 GitHub 仓库。使用 `.gitignore` 文件避免将这些文件推送到您的仓库，确保您的仓库保持干净和高效。
+避免将大数据集和输出文件推送到你的 GitHub 仓库。使用 `.gitignore` 文件避免将这些文件推送到你的仓库，确保你的仓库保持干净和高效。
