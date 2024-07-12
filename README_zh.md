@@ -1,4 +1,4 @@
-# Tutorial
+# 教程
 <h4 align="center">
     <p>
         <a href="https://github.com/Collaborative-AI/tutorial/blob/main/README.md">English</a>
@@ -6,28 +6,29 @@
     </p>
 </h4>
 
-Welcome to the Collaborative-AI tutorial repository! This repository contains several tutorials. Each tutorial is available in both English and Simplified Chinese. Below you will find links to each tutorial's README file.
 
-## Table of Contents
+欢迎来到 Collaborative-AI 教程仓库！本仓库包含多个教程。每个教程都有英文和简体中文版本。你可以在下面找到每个教程的 README 文件链接。
 
-1. [Git Tutorial](#git)
-2. [Literature Search Tutorial](#literature-search)
-3. [Python Tutorial](#python)
+## 目录
 
-## Contents
+1. [Git 教程](#git)
+2. [文献检索教程](#文献检索)
+3. [Python 教程](#python)
+
+## 内容
 
 ### Git
 
-Learn the basics of Git, including installation, configuration, and essential commands. This tutorial will guide you through everything you need to start using Git for version control.
+学习 Git 的基础知识，包括安装、配置和基本命令。本教程将指导你如何开始使用 Git 进行版本控制。
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Git/README.md">English</a> |
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Git/README_zh.md">简体中文</a>
 </p>
 
-### Literature Search
+### 文献检索
 
-Discover how to effectively search for academic literature using various tools and databases. This tutorial covers the methods and strategies for conducting a comprehensive literature review.
+了解如何使用各种工具和数据库有效地检索学术文献。本教程涵盖了进行全面文献综述的方法和策略。
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature_Search/README.md">English</a> |
@@ -36,7 +37,7 @@ Discover how to effectively search for academic literature using various tools a
 
 ### Python
 
-Get started with Python programming with this beginner-friendly tutorial. It covers the basics of Python syntax, data structures, and common libraries to help you build a strong foundation in Python.
+通过这个面向初学者的教程开始学习 Python 编程。本教程涵盖 Python 语法、数据结构和常用库的基础知识，帮助你建立扎实的 Python 基础。
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Python/README.md">English</a> |
@@ -45,4 +46,4 @@ Get started with Python programming with this beginner-friendly tutorial. It cov
 
 ---
 
-Each tutorial is designed to be self-contained, providing all the necessary information and examples to help you learn the respective topics. Follow the links above to get started with the tutorials in your preferred language.
+每个教程都是自包含的，提供了学习相关主题所需的所有信息和示例。请点击上面的链接，以你喜欢的语言开始学习教程。
