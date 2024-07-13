@@ -31,8 +31,8 @@
 了解如何使用各种工具和数据库有效地检索学术文献。本教程涵盖了进行全面文献综述的方法和策略。
 
 <p>
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature_Search/README.md">English</a> |
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature_Search/README_zh.md">简体中文</a>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature%20Search/README.md">English</a> |
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature%20Search/README_zh.md">简体中文</a>
 </p>
 
 ### Python

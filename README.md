@@ -30,8 +30,8 @@ Learn the basics of Git, including installation, configuration, and essential co
 Discover how to effectively search for academic literature using various tools and databases. This tutorial covers the methods and strategies for conducting a comprehensive literature review.
 
 <p>
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature_Search/README.md">English</a> |
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature_Search/README_zh.md">简体中文</a>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature%20Search/README.md">English</a> |
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature%20Search/README_zh.md">简体中文</a>
 </p>
 
 ### Python
