@@ -91,7 +91,7 @@ You can access Google Scholar [here](https://scholar.google.com).
 - Create a spreadsheet to organize the literature.
 - Suggested columns: 
 ```
-Article  Author   Date  Method   Dataset  Metric   Novelty  Result   Link  Code
+Article Author Venue Date Method Dataset Metric Novelty Result Link Code
 ```
 
 ---
