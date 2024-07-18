@@ -1,4 +1,4 @@
-## Setting Up a Python Development Environment with PyCharm and Anaconda
+# Setting Up a Python Development Environment with PyCharm and Anaconda
 
 <h4 align="center">
     <p>
@@ -6,6 +6,7 @@
         <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Python/README_zh.md">简体中文</a>
     </p>
 </h4>
+
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -21,6 +22,7 @@
         - [Linux](#linux-1)
     - [Verify Anaconda Installation](#verify-anaconda-installation)
 4. [Step 3: Install PyCharm](#step-3-install-pycharm)
+    - [PyCharm Editions](#pycharm-editions)
     - [Download PyCharm](#download-pycharm)
     - [Installation](#installation-1)
         - [Windows](#windows-2)
@@ -80,13 +82,22 @@ Install the latest Anaconda distribution, which includes numerous pre-installed 
 ## Step 3: Install PyCharm
 PyCharm is a powerful IDE specifically designed for Python development.
 
+### PyCharm Editions
+PyCharm comes in several editions:
+
+- **Community Edition**: Free and open-source, suitable for pure Python development.
+- **Professional Edition**: Paid version with additional features for web development, database management, and more.
+- **Educational Edition**: Free for educational purposes, includes features included in the Professional Edition. You can learn more and apply for an educational license [here](https://www.jetbrains.com/community/education/#students).
+
 ### Download PyCharm
-- Go to the [PyCharm download page](https://www.jetbrains.com/pycharm/download/) and download the Community edition for your operating system.
+- Go to the [PyCharm download page](https://www.jetbrains.com/pycharm/download/) and download the appropriate edition for your operating system.
 
 ### Installation
 
 #### Windows
 - Run the downloaded installer and follow the installation wizard.
+- Select the option to "Add PyCharm to context menu (right-click menu)" for easier access.
+- Optionally, choose to create a desktop shortcut.
 
 #### Mac
 - Open the downloaded `.dmg` file and drag PyCharm to the Applications folder.
@@ -120,3 +131,8 @@ Create a new project or open an existing one.
   
 - **Code Navigation**:
   - One of the advantages of using PyCharm over VSCode is the ability to navigate to definitions with `Ctrl + Left Click`.
+
+- **Educational Licenses**:
+  - If you're a student or educator, you can apply for a free educational license for PyCharm Professional Edition through the JetBrains website [here](https://www.jetbrains.com/community/education/#students).
+
+By following these steps, you will have a powerful and efficient Python development environment set up with PyCharm and Anaconda, ready for any data science or development projects.
