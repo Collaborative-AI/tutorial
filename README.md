@@ -36,7 +36,7 @@ Discover how to effectively search for academic literature using various tools a
 
 ### Python
 
-Get started with Python programming with this beginner-friendly tutorial. It covers the basics of Python syntax, data structures, and common libraries to help you build a strong foundation in Python.
+This tutorial will guide you through setting up a robust Python development environment using PyCharm and Anaconda. We'll cover installation steps for different operating systems, verify your existing Python installations, and configure PyCharm for efficient coding.
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Python/README.md">English</a> |

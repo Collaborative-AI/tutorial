@@ -37,7 +37,7 @@
 
 ### Python
 
-通过这个面向初学者的教程开始学习 Python 编程。本教程涵盖 Python 语法、数据结构和常用库的基础知识，帮助你建立扎实的 Python 基础。
+本教程将指导您使用 PyCharm 和 Anaconda 设置一个强大的 Python 开发环境。我们将涵盖不同操作系统的安装步骤，验证现有的 Python 安装，并配置 PyCharm 以实现高效编码。
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Python/README.md">English</a> |
