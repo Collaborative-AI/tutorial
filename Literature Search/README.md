@@ -89,7 +89,7 @@ You can access Google Scholar [here](https://scholar.google.com).
 ## Organizing Papers
 
 - Create a spreadsheet to organize the literature.
-- Suggested columns: 
+- Suggested columns (sorted by Date): 
 ```
 Article Author Venue Date Method Dataset Metric Novelty Result Link Code
 ```
