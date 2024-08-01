@@ -7,39 +7,47 @@
     </p>
 </h4>
 
-
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Step 1: Verify Existing Python Installations](#step-1-verify-existing-python-installations)
+2. [Verify Existing Python Installations](#verify-existing-python-installations)
     - [Windows](#windows)
     - [Mac](#mac)
     - [Linux](#linux)
-3. [Step 2: Install Anaconda](#step-2-install-anaconda)
+3. [Install Anaconda](#install-anaconda)
     - [Download Anaconda](#download-anaconda)
     - [Installation](#installation)
         - [Windows](#windows-1)
         - [Mac](#mac-1)
         - [Linux](#linux-1)
     - [Verify Anaconda Installation](#verify-anaconda-installation)
-4. [Step 3: Install PyCharm](#step-3-install-pycharm)
+4. [Install PyCharm](#install-pycharm)
     - [PyCharm Editions](#pycharm-editions)
     - [Download PyCharm](#download-pycharm)
     - [Installation](#installation-1)
         - [Windows](#windows-2)
         - [Mac](#mac-2)
         - [Linux](#linux-2)
-5. [Step 4: Configure PyCharm with Anaconda](#step-4-configure-pycharm-with-anaconda)
+5. [Configure PyCharm with Anaconda](#configure-pycharm-with-anaconda)
     - [Open PyCharm](#open-pycharm)
-    - [Set up Anaconda Environment](#set-up-anaconda-environment)
+    - [Set Up Anaconda Environment](#set-up-anaconda-environment)
     - [Configure Terminal for Conda](#configure-terminal-for-conda)
-6. [Step 5: Exclude Data and Output Folders](#step-5-exclude-data-and-output-folders)
+6. [Exclude Data and Output Folders](#exclude-data-and-output-folders)
     - [Mark as Excluded](#mark-as-excluded)
-7. [Additional Tips](#additional-tips)
+7. [Using Terminal vs. Jupyter Notebooks to Run Python Scripts](#using-terminal-vs-jupyter-notebooks-to-run-python-scripts)
+    - [Terminal](#terminal)
+    - [Jupyter Notebooks](#jupyter-notebooks)
+8. [Debugging](#debugging)
+    - [Basic Debugging with `print()` and `exit()`](#basic-debugging-with-print-and-exit)
+    - [Advanced Debugging with `pdb`](#advanced-debugging-with-pdb)
+    - [PyCharm Interactive Runner](#pycharm-interactive-runner)
+9. [Additional Tips](#additional-tips)
+
+---
 
 ## Introduction
 This tutorial will guide you through setting up a robust Python development environment using PyCharm and Anaconda. We'll cover installation steps for different operating systems, verify your existing Python installations, and configure PyCharm for efficient coding.
 
-## Step 1: Verify Existing Python Installations
+## Verify Existing Python Installations
 Before installing new software, check for any existing Python installations to avoid conflicts.
 
 ### Windows
@@ -54,7 +62,7 @@ Before installing new software, check for any existing Python installations to a
 - Open Terminal and type: `python --version` or `python3 --version`.
 - Use your package manager to uninstall unnecessary Python versions (e.g., `sudo apt-get remove python`).
 
-## Step 2: Install Anaconda
+## Install Anaconda
 Install the latest Anaconda distribution, which includes numerous pre-installed libraries and tools for data science.
 
 ### Download Anaconda
@@ -64,7 +72,8 @@ Install the latest Anaconda distribution, which includes numerous pre-installed 
 
 #### Windows
 - Run the downloaded installer.
-- Select "Just Me" and check "Add Anaconda to my PATH environment variable" during installation.
+- If select "Administrator", then select "Register Anaconda as the system Python" during installation. (recommended)
+- If select "Just Me", then check "Add Anaconda to my PATH environment variable" during installation.
 - Complete the installation process.
 
 #### Mac
@@ -79,12 +88,11 @@ Install the latest Anaconda distribution, which includes numerous pre-installed 
 - Open a new terminal window.
 - Type `python` and verify the output includes "packaged by Anaconda, Inc."
 
-## Step 3: Install PyCharm
+## Install PyCharm
 PyCharm is a powerful IDE specifically designed for Python development.
 
 ### PyCharm Editions
 PyCharm comes in several editions:
-
 - **Community Edition**: Free and open-source, suitable for pure Python development.
 - **Professional Edition**: Paid version with additional features for web development, database management, and more.
 - **Educational Edition**: Free for educational purposes, includes features included in the Professional Edition. You can learn more and apply for an educational license [here](https://www.jetbrains.com/community/education/#students).
@@ -105,25 +113,83 @@ PyCharm comes in several editions:
 #### Linux
 - Extract the downloaded tarball and run `./pycharm.sh` from the `bin` subdirectory.
 
-## Step 4: Configure PyCharm with Anaconda
+## Configure PyCharm with Anaconda
 
 ### Open PyCharm
 Create a new project or open an existing one.
 
-### Set up Anaconda Environment
+### Set Up Anaconda Environment
 - Go to `File` > `Settings` (or `PyCharm` > `Preferences` on Mac).
 - Navigate to `Project: <project_name>` > `Python Interpreter`.
 - Click the gear icon and select `Add`.
-- Choose `Conda Environment` and specify the path to your Anaconda installation.
+- Choose `System Environment` or `Conda Environment` and specify the path to your Anaconda installation.
 
 ### Configure Terminal for Conda
 - If the `(base)` prefix does not appear in front of the command prompt, set the default terminal to Conda by going to `File` > `Settings` > `Tools` > `Terminal` and setting the shell path to the Conda terminal executable.
 
-## Step 5: Exclude Data and Output Folders
+## Exclude Data and Output Folders
 
 ### Mark as Excluded
 - Right-click on the data/output folder in the Project tool window.
 - Select `Mark Directory as` > `Excluded`.
+
+## Using Terminal vs. Jupyter Notebooks to Run Python Scripts
+
+### Terminal
+- **Best for Large Projects and Automation**: Use the terminal for running large projects with multiple modules, automating tasks, and handling performance-intensive scripts. It's more suitable for managing virtual environments and integrating with version control systems like Git.
+
+### Jupyter Notebooks
+- **Best for Demos and Proof of Concepts**: Ideal for proof of concept, data visualization of demo, and creating well-documented reports. Use notebooks when you need to quickly prototype ideas or demonstrate concepts.
+
+By following these steps, you will have a powerful and efficient Python development environment set up with PyCharm and Anaconda, ready for any data science or development projects.
+
+## Debugging
+
+Effective debugging is crucial for developing robust Python applications. Here are three methods to debug your Python scripts:
+
+### Basic Debugging with `print()` and `exit()`
+Use `print()` statements to output variable values and the flow of execution. This method is quick and effective for simple debugging tasks.
+
+Example:
+```python
+def add(a, b):
+    print(f"Adding {a} and {b}")
+    result = a + b
+    print(f"Result: {result}")
+    return result
+
+add(2, 3)
+exit()  # Terminate the script here for inspection
+```
+
+### Advanced Debugging with `pdb`
+The Python debugger (`pdb`) allows for more fine-tuned debugging, such as setting breakpoints and stepping through code.
+
+To use `pdb`:
+1. Import `pdb` in your script.
+2. Insert `pdb.set_trace()` where you want to start debugging.
+
+Example:
+```python
+import pdb
+
+def add(a, b):
+    pdb.set_trace()  # Start debugging here
+    result = a + b
+    return result
+
+add(2, 3)
+```
+
+### PyCharm Interactive Runner
+If you are not using the terminal, PyCharm's interactive runner provides a user-friendly debugging environment with powerful features such as breakpoints, watches, and variable inspection.
+
+To use PyCharm's interactive runner:
+1. Set breakpoints by clicking in the gutter next to the line numbers.
+2. Right-click your script and select "Debug" to start the debugger.
+3. Use the debugging controls to step through your code, inspect variables, and evaluate expressions.
+
+These methods offer a range of options for debugging, from quick checks with `print()` and `exit()`, to detailed inspection with `pdb`, to a comprehensive debugging environment in PyCharm. Choose the method that best fits your debugging needs.
 
 ## Additional Tips
 - **Using Terminal Instead of PyCharm Runner**:
@@ -133,6 +199,4 @@ Create a new project or open an existing one.
   - One of the advantages of using PyCharm over VSCode is the ability to navigate to definitions with `Ctrl + Left Click`.
 
 - **Educational Licenses**:
-  - If you're a student or educator, you can apply for a free educational license for PyCharm Professional Edition through the JetBrains website [here](https://www.jetbrains.com/community/education/#students).
-
-By following these steps, you will have a powerful and efficient Python development environment set up with PyCharm and Anaconda, ready for any data science or development projects.
+  - If you're a student or educator, you can apply for a free educational license for PyCharm Professional Edition through the JetBrains website [here](https://www.jetbrains.com/community/education/#students
