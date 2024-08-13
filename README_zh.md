@@ -14,6 +14,8 @@
 1. [Git](#git)
 2. [文献调研](#文献调研)
 3. [Python](#python)
+4. [论文阅读](#paper-reading)
+5. [PyTorch](#pytorch)
 
 ## 内容
 
@@ -44,6 +46,21 @@
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Python/README_zh.md">简体中文</a>
 </p>
 
----
 
-每个教程都是自包含的，提供了学习相关主题所需的所有信息和示例。请点击上面的链接，以你喜欢的语言开始学习教程。
+### 论文阅读
+
+学习如何有效地阅读和分析论文。本教程提供了理解论文结构、做笔记、批判性分析内容以及将论文与您的研究联系起来的策略。
+
+<p>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Paper%20Reading/README.md">English</a> |
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Paper%20Reading/README_zh.md">简体中文</a>
+</p>
+
+### PyTorch
+
+本教程介绍了 PyTorch 的基础知识，这是 Python 中一个流行的深度学习库。您将学习如何设置 PyTorch，处理张量，构建和训练神经网络等。
+
+<p>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/PyTorch/README.md">English</a> |
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/PyTorch/README_zh.md">简体中文</a>
+</p>

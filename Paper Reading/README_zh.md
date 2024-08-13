@@ -1,8 +1,8 @@
-# 如何阅读学术论文
+# 阅读论文
 
 <h4 align="center">
     <p>
-        <a href="https://github.com/Collaborative-AI/tutorial/blob/main/How to Read Academic Paper/README.md">English</a>
+        <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Paper%20Reading/README.md">English</a>
         <b>简体中文</b> |
     </p>
 </h4>

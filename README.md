@@ -13,6 +13,8 @@ Welcome to the Collaborative-AI tutorial repository! This repository contains se
 1. [Git](#git)
 2. [Literature Search](#literature-search)
 3. [Python](#python)
+4. [Paper Reading](#paper-reading)
+5. [PyTorch](#pytorch)
 
 ## Contents
 
@@ -43,6 +45,22 @@ This tutorial will guide you through setting up a robust Python development envi
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Python/README_zh.md">简体中文</a>
 </p>
 
----
+### Paper Reading
 
-Each tutorial is designed to be self-contained, providing all the necessary information and examples to help you learn the respective topics. Follow the links above to get started with the tutorials in your preferred language.
+Learn how to effectively read and analyze papers. This tutorial provides strategies for understanding the structure of a paper, taking notes, critically analyzing content, and connecting the paper to your research.
+
+<p>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Paper%20Reading/README.md">English</a> |
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Paper%20Reading/README_zh.md">简体中文</a>
+</p>
+
+### PyTorch
+
+This tutorial introduces the basics of PyTorch, a popular deep learning library in Python. You'll learn how to set up PyTorch, work with tensors, build and train neural networks, and more.
+
+<p>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/PyTorch/README.md">English</a> |
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/PyTorch/README_zh.md">简体中文</a>
+</p>
+
+---
