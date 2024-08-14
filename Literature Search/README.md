@@ -109,7 +109,4 @@ Article Author Venue Date Method Dataset Metric Novelty Result Link Code
 - **Conference Deadlines:** Use websites like [AI Deadlines](https://aideadlin.es/) to track important dates.
 - **GitHub Repositories:** Look for "Awesome [Topic name]" repositories for curated lists of important papers. There are also benchmark repositories for a particular field.
 - **Papers with Code:** A website that gathers leaderboards, data, code, and papers for various topics. Access it [here](https://paperswithcode.com/).
-
----
-
-By following these suggestions and incorporating relevant links, you can make your tutorial more comprehensive and user-friendly.
+- **Paper Reading Tutorial:** For guidance on how to effectively read and analyze academic papers, refer to this [Paper Reading Tutorial](https://github.com/Collaborative-AI/tutorial/blob/main/Paper%20Reading/README.md).

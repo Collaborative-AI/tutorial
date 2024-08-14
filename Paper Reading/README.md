@@ -19,14 +19,14 @@
     - [References](#references)
 3. [Effective Reading Strategies](#effective-reading-strategies)
     - [Skimming](#skimming)
+    - [Targeted Reading](#targeted-reading)
     - [In-Depth Reading](#in-depth-reading)
 4. [Taking Notes and Highlighting](#taking-notes-and-highlighting)
     - [Annotating the Paper](#annotating-the-paper)
     - [Summarizing Key Points](#summarizing-key-points)
-5. [Critically Analyzing the Paper](#critically-analyzing-the-paper)
-    - [Evaluating the Methodology](#evaluating-the-methodology)
-    - [Assessing the Results](#assessing-the-results)
-    - [Identifying Strengths and Weaknesses](#identifying-strengths-and-weaknesses)
+5. [Connecting the Paper to Existing Literature](#connecting-the-paper-to-existing-literature)
+    - [Commonalities and Distinctions](#commonalities-and-distinctions)
+    - [Fitting into a Taxonomy](#fitting-into-a-taxonomy)
 6. [Connecting the Paper to Your Work](#connecting-the-paper-to-your-work)
     - [Relating to Your Research](#relating-to-your-research)
     - [Citing the Paper](#citing-the-paper)
@@ -45,27 +45,27 @@ Academic papers generally follow a structured format, which helps in navigating 
 ### Title and Abstract
 
 - **Title**: Gives a concise indication of the paper's focus.
-- **Abstract**: A summary of the entire paper, including the problem addressed, methods used, results obtained, and the conclusion. It’s essential to read this to get a quick overview of the paper.
+- **Abstract**: A summary of the entire paper, including the problem addressed, methods used, results obtained, and the conclusion. The abstract generally has three parts: 1) background, 2) a one-line summary of the work (usually beginning with "In this work, ..."), and 3) the achievements of this work, which usually include theoretical or experimental highlights. It’s essential to read this to get a quick overview of the paper.
 
 ### Introduction
 
-- **Purpose**: Introduces the problem, why it’s important, and the scope of the research. It also usually contains a brief outline of the paper.
-- **What to Look For**: The motivation behind the research, the research question, and the objectives.
+- **Purpose**: Introduces the problem, why it’s important, and the scope of the research. It also usually contains a brief outline of the paper. The introduction should add motivation and the contributions of the paper before outlining its structure.
+- **What to Look For**: The motivation behind the research, the research question, objectives, and contributions (often listed as bullet points).
 
 ### Related Work
 
 - **Purpose**: Reviews existing literature and positions the paper within the current body of knowledge.
-- **What to Look For**: How the paper differentiates itself from previous work and the key contributions it intends to make.
+- **What to Look For**: Examine how the paper differentiates itself from previous work, including its connections and commonalities with existing literature, as well as the problems identified in prior research. The related work section is often organized chronologically. Additionally, focus on the differences between the proposed work and existing work.
 
 ### Methodology
 
 - **Purpose**: Describes the methods and approaches used to address the research question.
-- **What to Look For**: The design of experiments, data collection techniques, and analysis methods. Understanding the methodology is crucial for evaluating the validity of the research.
+- **What to Look For**: The problem formulation, method formulation (including algorithms and models), and discussions on key aspects of the method. Understanding the methodology is crucial for evaluating the validity of the research.
 
 ### Experiments and Results
 
 - **Purpose**: Presents the data obtained from the experiments and analyzes the results.
-- **What to Look For**: Key findings, data presented in figures or tables, and statistical significance. This section shows whether the research objectives were met.
+- **What to Look For**: Key findings, data presented in figures or tables, and statistical significance. Focus on whether the experimental setup is clean and well-established (e.g., convergence, baselines). Evaluate if the results support the claims made by the authors and whether ablation studies help in understanding the contribution of each detail in the method. Look for results that justify the claims, the novelty and significance of the method, and any insights into how the author may have conceived the idea.
 
 ### Conclusion
 
@@ -88,6 +88,15 @@ Reading a paper effectively involves different strategies depending on your purp
     - Read the title, abstract, and conclusion.
     - Glance through the headings and subheadings.
     - Look at the figures and tables to get a sense of the results.
+    - Pay particular attention to diagrams that illustrate the motivation and method.
+
+### Targeted Reading
+
+- **When to Use**: When you want a better understanding of the field or to grasp the motivation and contribution of the paper without reading it entirely.
+- **How to Do It**: 
+    - Read the introduction and related work sections.
+    - Focus on the formulations in the methodology section.
+    - Review the key results in the experimental section.
 
 ### In-Depth Reading
 
@@ -96,6 +105,7 @@ Reading a paper effectively involves different strategies depending on your purp
     - Read the entire paper carefully.
     - Take notes and highlight important sections.
     - Pause after each section to summarize in your own words what you've understood.
+    - Be critical and curious. Look for hidden facts and ask crucial questions that may intrigue future work.
 
 ## Taking Notes and Highlighting
 
@@ -115,29 +125,21 @@ Taking notes while reading helps in retaining information and makes it easier to
     - Note down any questions or thoughts that arise.
     - Summaries should include the problem, method, key results, and the significance of the research.
 
-## Critically Analyzing the Paper
+## Connecting the Paper to Existing Literature
 
-Critical analysis goes beyond understanding the paper; it involves evaluating the research’s strengths and weaknesses.
+Relating the paper to existing literature is essential for understanding its place within the field and its relevance to ongoing research.
 
-### Evaluating the Methodology
+### Commonalities and Distinctions
 
-- **Questions to Ask**:
-    - Are the methods appropriate for the research question?
-    - Is the sample size sufficient?
-    - Are there any biases or confounding variables?
+- **How to Do It**: 
+    - Identify commonalities between the paper and previous works.
+    - Highlight the distinctions that set the paper apart, focusing on the differences in methodology, findings, or conclusions.
 
-### Assessing the Results
+### Fitting into a Taxonomy
 
-- **Questions to Ask**:
-    - Are the results clearly presented?
-    - Do the data support the conclusions?
-    - Are there any limitations acknowledged by the authors?
-
-### Identifying Strengths and Weaknesses
-
-- **How to Do It**:
-    - List what the paper does well (e.g., innovative methods, thorough analysis).
-    - Identify potential flaws or areas for improvement (e.g., small sample size, lack of control groups).
+- **How to Do It**: 
+    - Try to fit the paper into a proper taxonomy of the field.
+    - Determine where the paper stands in relation to other key works and how it contributes to the development of the field.
 
 ## Connecting the Paper to Your Work
 
@@ -153,9 +155,9 @@ Relating the paper to your research is crucial for understanding its relevance a
 ### Citing the Paper
 
 - **How to Do It**:
-    - If you plan to reference the paper in your work, make sure to record the citation in a reference manager.
+    - If you plan to reference the paper in your work, make sure to record the citation in a reference manager using BibTeX format.
+    - Find the citation for the original publication venue if an arXiv version exists.
     - Note down specific sections or figures you might want to cite.
-    - Use proper citation formats (e.g., APA, MLA) according to your field’s standards.
 
 ## Next Steps
 
@@ -164,5 +166,4 @@ After reading and analyzing a paper, there are several actions you can take:
 - **Discuss with Peers**: Share insights or questions with colleagues to deepen understanding.
 - **Explore References**: Follow the cited works to expand your knowledge on the topic.
 - **Apply to Your Work**: Use the insights gained to inform your research, experiments, or writing.
-- **Write a Review**: If the paper is particularly relevant, consider writing a review or critique.
-
+- **Organize into Literature Summary**: Consider organizing the paper into a literature summary with other works in the field.
