@@ -1,4 +1,4 @@
-# Pytorch
+# PyTorch
 
 <h4 align="center">
     <p>
@@ -36,11 +36,7 @@ Before we begin working with PyTorch, you'll need to install it on your system.
 
 ### Installation
 
-Install PyTorch via pip by running the following command:
-
-```bash
-pip install torch torchvision
-```
+To install PyTorch, please visit the [official PyTorch installation guide](https://pytorch.org/get-started/locally/). This page provides detailed instructions tailored to various platforms and hardware configurations (CPU or GPU). Follow the steps that match your system to ensure a smooth installation.
 
 ### Verify Installation
 
@@ -148,7 +144,9 @@ optimizer = optim.SGD(model.parameters(), lr=0.01)  # Stochastic Gradient Descen
 
 ## Training the Model
 
-Here's a simple training loop that uses the model, loss function, and optimizer:
+To train the model, we'll use a simple training loop. Training involves iteratively passing data through the model, calculating the loss, and updating the model weights using gradient descent. For more detailed information on gradient descent and model training, you can refer to this [PyTorch tutorial on training models](https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html).
+
+Here’s a basic training loop:
 
 ```python
 # Assuming you have a DataLoader that provides batches of images and labels
@@ -200,11 +198,11 @@ You can save your trained model to disk and load it later:
 
 ```python
 # Save
-torch.save(model.state_dict(), 'model.pth')
+torch.save(model.state_dict(), 'model.pt')
 
 # Load
 model = SimpleNN()
-model.load_state_dict(torch.load('model.pth'))
+model.load_state_dict(torch.load('model.pt'))
 ```
 
 ## Next Steps
@@ -215,5 +213,6 @@ This tutorial introduces the basics of PyTorch. To deepen your understanding, co
 - **Advanced Neural Network Architectures**: Experiment with more complex models like CNNs or RNNs.
 - **Transfer Learning**: Use pre-trained models for tasks like image classification.
 - **Hyperparameter Tuning**: Experiment with different learning rates, batch sizes, and optimizers.
+- **RPipe** you can explore the [RPipe](https://github.com/diaoenmao/RPipe) Research Pipeline for an end-to-end solution that includes setting up experiment scripts, building datasets and models, training and evaluating the model, and saving and processing final results. This resource provides a comprehensive framework to streamline your research and experimentation with PyTorch.
 
-You can find more tutorials and detailed documentation on the [official PyTorch website](https://pytorch.org/tutorials/).
+For more tutorials and detailed documentation, visit the [official PyTorch website](https://pytorch.org/tutorials/).
