@@ -267,3 +267,12 @@ To merge one repository into another and preserve commits, follow these steps:
    ```bash
    git checkout -b source_branch source_repo/main
   
+   ```
+
+## Best Practices
+
+### Use .gitignore Templates
+To avoid pushing unnecessary files (such as OS-specific files, IDE configuration files, and build artifacts) to your repository, always use a `.gitignore` file. GitHub offers a collection of `.gitignore` templates for different programming languages and development environments. You can refer to [this example of a .gitignore file for Python](https://github.com/diaoenmao/RPipe/blob/main/.gitignore).
+
+### Avoid Pushing Datasets and Output Files
+Avoid pushing large datasets and output files to your GitHub repository. Use the `.gitignore` file to prevent these files from being pushed, ensuring that your repository remains clean and efficient.
