@@ -93,7 +93,7 @@ You can access Google Scholar [here](https://scholar.google.com).
   
 - **Suggested Columns (sorted by Date):** 
 
-  - **Article** The title of the paper, which usually reflects the core research question or contribution.
+  - **Title** The title of the paper, which usually reflects the core research question or contribution.
   
   - **Author** The names of the authors, listed in the order they appear on the paper. Knowing the authors can help identify prominent researchers in the field.
   
