@@ -1,4 +1,5 @@
 # Tutorial
+
 <h4 align="center">
     <p>
         <b>English</b> |
@@ -15,6 +16,7 @@ Welcome to the Collaborative-AI tutorial repository! This repository contains se
 3. [Python](#python)
 4. [Paper Reading](#paper-reading)
 5. [PyTorch](#pytorch)
+6. [MongoDB](#mongodb)
 
 ## Contents
 
@@ -63,4 +65,11 @@ This tutorial introduces the basics of PyTorch, a popular deep learning library 
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/PyTorch/README_zh.md">简体中文</a>
 </p>
 
----
+### MongoDB
+
+Learn how to install and configure MongoDB locally, set up MongoDB Compass for database management, and use PyMongo for Python-based database operations. This tutorial covers installation on Windows, macOS, and Linux, and includes basic and advanced operations with PyMongo.
+
+<p>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/MongoDB/README.md">English</a> |
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/MongoDB/README_zh.md">简体中文</a>
+</p>
