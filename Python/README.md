@@ -33,14 +33,16 @@
     - [Configure Terminal for Conda](#configure-terminal-for-conda)
 6. [Exclude Data and Output Folders](#exclude-data-and-output-folders)
     - [Mark as Excluded](#mark-as-excluded)
-7. [Using Terminal vs. Jupyter Notebooks to Run Python Scripts](#using-terminal-vs-jupyter-notebooks-to-run-python-scripts)
+    - [Modifying the `.idea` Folder](#modifying-the-idea-folder)
+7. [Use Symbolic Links for Shared Data](#use-symbolic-links-for-shared-data)
+8. [Using Terminal vs. Jupyter Notebooks to Run Python Scripts](#using-terminal-vs-jupyter-notebooks-to-run-python-scripts)
     - [Terminal](#terminal)
     - [Jupyter Notebooks](#jupyter-notebooks)
-8. [Debugging](#debugging)
+9. [Debugging](#debugging)
     - [Basic Debugging with `print()` and `exit()`](#basic-debugging-with-print-and-exit)
     - [Advanced Debugging with `pdb`](#advanced-debugging-with-pdb)
     - [PyCharm Interactive Runner](#pycharm-interactive-runner)
-9. [Additional Tips](#additional-tips)
+10. [Additional Tips](#additional-tips)
 
 ---
 
@@ -130,8 +132,46 @@ Create a new project or open an existing one.
 ## Exclude Data and Output Folders
 
 ### Mark as Excluded
-- Right-click on the data/output folder in the Project tool window.
-- Select `Mark Directory as` > `Excluded`.
+1. In the Project tool window, locate the `data` and `output` folders (or other directories containing large files or generated content).
+2. Right-click on each folder.
+3. Select **Mark Directory as** > **Excluded**.
+
+### Why Exclude These Folders?
+
+Excluding the `data` and `output` directories helps PyCharm avoid indexing unnecessary or large files. Indexing these folders, especially during project loading, can cause PyCharm to significantly slow down or even hang the IDE if the directories contain a large number of files. By excluding these directories, you ensure that PyCharm skips indexing them, which improves performance and reduces load time.
+
+### Modifying the `.idea` Folder
+
+If you prefer not to exclude directories manually through the PyCharm interface, you can modify the `.iml` file inside the `.idea` folder to exclude directories programmatically. This ensures that large folders, such as `data` and `output`, won’t be indexed, preventing the IDE from freezing during the loading process.
+
+To exclude folders, locate the `<content>` tag in the `.iml` file and add the following lines:
+
+```xml
+<content url="file://$MODULE_DIR$">
+    <excludeFolder url="file://$MODULE_DIR$/data" />
+    <excludeFolder url="file://$MODULE_DIR$/output" />
+</content>
+```
+
+This ensures that PyCharm skips indexing the specified folders, which is essential for maintaining smooth performance when dealing with projects containing large files or datasets.
+
+## Use Symbolic Links for Shared Data
+
+If you have multiple projects that need to share the same data sources, using symbolic links for the `data` folder can save disk space by avoiding multiple copies of the same data. Instead of duplicating the data across projects, create a symbolic link to a shared data source.
+
+To create a symbolic link:
+
+- **On Windows**, use the following command:
+  ```bash
+  mklink /D data "C:\path\to\shared\data"
+  ```
+
+- **On Linux/macOS**, use this command:
+  ```bash
+  ln -s /path/to/shared/data data
+  ```
+
+This way, the `data` folder will point to a shared location, allowing multiple projects to access the same data without consuming additional disk space.
 
 ## Using Terminal vs. Jupyter Notebooks to Run Python Scripts
 
