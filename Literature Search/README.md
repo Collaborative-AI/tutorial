@@ -86,35 +86,35 @@ You can access Google Scholar [here](https://scholar.google.com).
 
 ---
 
-
 ## Organizing Papers
 
-- **Create a Spreadsheet:** A tool to systematically organize and manage your literature collection.
+- **Create a Spreadsheet:** A tool to systematically organize and manage your literature collection. To enhance readability and emphasize key concepts, it is recommended to **bold important keywords** throughout the spreadsheet. This can include critical concepts, methods, datasets, evaluation metrics, or any novel contributions. Bolding keywords helps highlight essential information at a glance and makes it easier to quickly reference specific details when revisiting the literature.
   
 - **Suggested Columns (sorted by Date):** 
 
-  - **Title** The title of the paper, which usually reflects the core research question or contribution.
+  - **Title:** The title of the paper, which usually reflects the core research question or contribution.
   
-  - **Author** The names of the authors, listed in the order they appear on the paper. Knowing the authors can help identify prominent researchers in the field.
+  - **Institution:** Instead of listing all authors' names, it's recommended to list the institution name for easy reference. This helps identify the research affiliation and can highlight trends from specific research groups.
   
-  - **Venue** The conference or journal where the paper was published. This can indicate the paper's credibility and impact, as some venues are more prestigious than others.
+  - **Venue:** The conference or journal where the paper was published. This can indicate the paper's credibility and impact, as some venues are more prestigious than others.
   
-  - **Date** The publication date of the paper. Sorting by date helps in tracking the chronological evolution of the research topic.
+  - **Date:** The publication date of the paper. Sorting by date helps in tracking the chronological evolution of the research topic.
   
-  - **Method** A brief description of the methodology used in the paper, including any algorithms, models, or theoretical approaches. The method can often be extracted from the abstract.
-  
-  - **Dataset** The dataset used in the research, which is crucial for establishing a standard benchmark to compare against baselines.
-  
-  - **Metric** The evaluation metrics used to assess the performance of the proposed method, such as Accuracy, F1 score, or AUC.
-  
-  - **Novelty** A summary of what makes the paper unique or innovative compared to previous work. This could be a new approach, a novel application, or a significant improvement on existing methods.
-  
-  - **Result** The main contributions of the paper, often highlighting how well the method performed according to the chosen metrics. The contributions can be extracted from the abstract, introduction and conclusion sections.
-  
-  - **Link** A URL to access the paper online, whether through the publisher's website, arXiv, or other repositories.
-  
-  - **Code** A link to any code repository (e.g., GitHub) associated with the paper. Having access to the code can be invaluable for reproducing results or building on the work.
+  - **Dataset:** The dataset used in the research, which is crucial for establishing a standard benchmark to compare against baselines.
 
+  - **Metric:** The evaluation metrics used to assess the performance of the proposed method, such as Accuracy and F1 score.
+  
+  - **Objective:** A summary of the primary goal of the research, detailing the problem the paper addresses.
+  
+  - **Method:** A brief description of the methodology used in the paper, including any algorithms, models, or theoretical approaches. The method can often be extracted from the abstract.
+
+  - **Novelty:** A summary of what makes the paper unique or innovative compared to previous work. This could be a new approach, a novel application, or a significant improvement on existing methods.
+  
+  - **Result:** The main contributions of the paper, often highlighting how well the method performed according to the chosen metrics. The contributions can be extracted from the abstract, introduction, and conclusion sections.
+  
+  - **Link:** A URL to access the paper online, whether through the publisher's website, arXiv, or other repositories.
+  
+  - **Code:** A link to any code repository (e.g., GitHub) associated with the paper. Having access to the code can be invaluable for reproducing results or building on the work.
 
 ---
 
