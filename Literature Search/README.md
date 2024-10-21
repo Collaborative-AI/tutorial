@@ -100,10 +100,6 @@ You can access Google Scholar [here](https://scholar.google.com).
   
   - **Date:** The publication date of the paper. Sorting by date helps in tracking the chronological evolution of the research topic.
   
-  - **Dataset:** The dataset used in the research, which is crucial for establishing a standard benchmark to compare against baselines.
-
-  - **Metric:** The evaluation metrics used to assess the performance of the proposed method, such as Accuracy and F1 score.
-  
   - **Objective:** A summary of the primary goal of the research, detailing the problem the paper addresses.
   
   - **Method:** A brief description of the methodology used in the paper, including any algorithms, models, or theoretical approaches. The method can often be extracted from the abstract.
@@ -111,6 +107,10 @@ You can access Google Scholar [here](https://scholar.google.com).
   - **Novelty:** A summary of what makes the paper unique or innovative compared to previous work. This could be a new approach, a novel application, or a significant improvement on existing methods.
   
   - **Result:** The main contributions of the paper, often highlighting how well the method performed according to the chosen metrics. The contributions can be extracted from the abstract, introduction, and conclusion sections.
+  
+  - **Dataset:** The dataset used in the research, which is crucial for establishing a standard benchmark to compare against baselines.
+
+  - **Metric:** The evaluation metrics used to assess the performance of the proposed method, such as Accuracy and F1 score.
   
   - **Link:** A URL to access the paper online, whether through the publisher's website, arXiv, or other repositories.
   
