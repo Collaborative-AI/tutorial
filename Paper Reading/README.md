@@ -30,7 +30,11 @@
 6. [Connecting the Paper to Your Work](#connecting-the-paper-to-your-work)
     - [Relating to Your Research](#relating-to-your-research)
     - [Citing the Paper](#citing-the-paper)
-7. [Next Steps](#next-steps)
+7. [Saving Papers](#saving-papers)
+    - [Directory Structure](#directory-structure)
+    - [File Naming](#file-naming)
+8. [Next Steps](#next-steps)
+
 
 ---
 
@@ -158,6 +162,20 @@ Relating the paper to your research is crucial for understanding its relevance a
     - If you plan to reference the paper in your work, make sure to record the citation in a reference manager using BibTeX format.
     - Find the citation for the original publication venue if an arXiv version exists.
     - Note down specific sections or figures you might want to cite.
+
+## Saving Papers
+
+Properly organizing and saving academic papers is essential for easy retrieval and reference.
+
+### Directory Structure
+
+- **Project-Based Folders**: Organize papers within project-specific directories. For a single project, create a folder named after the project (e.g., `project_name/doc/paper_name.pdf`). If the project involves multiple tasks or topics, organize them further by topic name (e.g., `project_name/doc/topic_name/paper_name.pdf`).
+
+### File Naming
+
+- **Formatting the Filename**: The filename should be the formatted title of the paper. You can usually access the correct paper title from the arXiv or the original publication page, avoiding directly copying it from the PDF.
+
+- **Including Publication Date**: It's helpful, though optional, to include the publication year in the filename, such as `[2020] paper_name.pdf`. This will help in organizing papers chronologically.
 
 ## Next Steps
 
