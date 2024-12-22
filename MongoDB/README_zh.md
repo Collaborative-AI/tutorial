@@ -24,7 +24,10 @@
     - [连接到 MongoDB](#连接到-mongodb)
     - [基本的 CRUD 操作](#基本的-crud-操作)
     - [高级 PyMongo 方法](#高级-pymongo-方法)
-9. [最佳实践](#最佳实践)
+9. [备份和恢复 MongoDB](#备份和恢复-mongodb)
+    - [使用 `mongodump` 进行备份](#使用-mongodump-进行备份)
+    - [使用 `mongorestore` 进行恢复](#使用-mongorestore-进行恢复)
+10. [最佳实践](#最佳实践)
 
 ## 简介
 
@@ -366,6 +369,71 @@ PyMongo 是一个 Python 分发包，包含与 MongoDB 一起使用的工具。�
       result = collection.find_one_and_delete({"name": "Diana"})
       print(result)
       ```
+
+## 备份和恢复 MongoDB
+
+我们需要使用 [MongoDB 数据库工具](https://www.mongodb.com/try/download/database-tools)
+
+### 使用 `mongodump` 进行备份
+
+`mongodump` 是一个用于创建 MongoDB 数据备份的工具。它将数据导出为 BSON 格式，这是 MongoDB 的原生数据格式。
+
+1. **使用 `mongodump` 创建备份：**
+
+   以下命令将把整个数据库备份为 BSON 文件：
+
+   ```bash
+   mongodump --uri="mongodb://localhost:27017" --out=/path/to/backup/directory
+   ```
+
+   - `--uri`：MongoDB 连接 URI（示例中为 localhost 和默认端口）。
+   - `--out`：指定备份文件存储的目录路径。
+
+2. **备份特定数据库或集合：**
+
+   如果只想备份特定的数据库或集合，请使用以下命令：
+
+   - 备份指定的数据库：
+     ```bash
+     mongodump --uri="mongodb://localhost:27017" --db=your_database --out=/path/to/backup/directory
+     ```
+
+   - 备份数据库中的特定集合：
+     ```bash
+     mongodump --uri="mongodb://localhost:27017" --db=your_database --collection=your_collection --out=/path/to/backup/directory
+     ```
+
+   如果想压缩备份文件，可以使用 `--gzip` 标志。
+
+### 使用 `mongorestore` 进行恢复
+
+`mongorestore` 是一个用于从 `mongodump` 创建的备份中恢复数据的工具。
+
+1. **恢复数据库：**
+
+   使用以下命令从备份恢复整个数据库：
+
+   ```bash
+   mongorestore --uri="mongodb://localhost:27017" --dir=/path/to/backup/directory/your_database
+   ```
+
+   - `--uri`：MongoDB 连接 URI（示例中为 localhost 和默认端口）。
+   - `--dir`：备份文件所在的目录路径。
+
+2. **恢复特定集合：**
+
+   使用以下命令从备份恢复特定集合：
+
+   ```bash
+   mongorestore --uri="mongodb://localhost:27017" --db=your_database --collection=your_collection --dir=/path/to/backup/directory/your_database/your_collection.bson
+   ```
+
+3. **其他选项：**
+
+   - `--drop`：在恢复备份前，删除现有的集合。
+   - `--gzip`：如果备份文件是使用 gzip 压缩的，可以使用此选项。
+
+有关更多信息，请参阅官方 [MongoDB Database Tools 文档](https://www.mongodb.com/zh-cn/docs/database-tools/)，并在 [这里](https://gist.github.com/diaoenmao/32b30c634658fdcdb02eea039e1d473d) 查找自动化备份和恢复过程的 `bash` 脚本。
 
 ## 最佳实践
 
