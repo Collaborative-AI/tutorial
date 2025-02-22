@@ -2,11 +2,11 @@
 <h4 align="center">
     <p>
         <a href="https://github.com/Collaborative-AI/tutorial/blob/main/README.md">English</a>
-        <b>简体中文</b> |
+        <b>中文</b> |
     </p>
 </h4>
 
-欢迎来到 Collaborative-AI 教程仓库！本仓库包含多个教程。每个教程都有英文和简体中文版本。你可以在下面找到每个教程的 README 文件链接。
+欢迎来到 Collaborative-AI 教程仓库！本仓库包含多个教程。每个教程都有英文和中文版本。你可以在下面找到每个教程的 README 文件链接。
 
 ## 目录
 
@@ -25,7 +25,7 @@
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Git/README.md">English</a> |
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Git/README_zh.md">简体中文</a>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Git/README_zh.md">中文</a>
 </p>
 
 ### 文献调研
@@ -34,7 +34,7 @@
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature%20Search/README.md">English</a> |
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature%20Search/README_zh.md">简体中文</a>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature%20Search/README_zh.md">中文</a>
 </p>
 
 ### Python
@@ -43,7 +43,7 @@
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Python/README.md">English</a> |
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Python/README_zh.md">简体中文</a>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Python/README_zh.md">中文</a>
 </p>
 
 ### 论文阅读
@@ -52,7 +52,7 @@
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Paper%20Reading/README.md">English</a> |
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Paper%20Reading/README_zh.md">简体中文</a>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Paper%20Reading/README_zh.md">中文</a>
 </p>
 
 ### PyTorch
@@ -61,7 +61,7 @@
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/PyTorch/README.md">English</a> |
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/PyTorch/README_zh.md">简体中文</a>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/PyTorch/README_zh.md">中文</a>
 </p>
 
 ### MongoDB
@@ -70,5 +70,5 @@
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/MongoDB/README.md">English</a> |
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/MongoDB/README_zh.md">简体中文</a>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/MongoDB/README_zh.md">中文</a>
 </p>

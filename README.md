@@ -3,7 +3,7 @@
 <h4 align="center">
     <p>
         <b>English</b> |
-        <a href="https://github.com/Collaborative-AI/tutorial/blob/main/README_zh.md">简体中文</a>
+        <a href="https://github.com/Collaborative-AI/tutorial/blob/main/README_zh.md">中文</a>
     </p>
 </h4>
 
@@ -26,7 +26,7 @@ Learn the basics of Git, including installation, configuration, and essential co
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Git/README.md">English</a> |
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Git/README_zh.md">简体中文</a>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Git/README_zh.md">中文</a>
 </p>
 
 ### Literature Search
@@ -35,7 +35,7 @@ Discover how to effectively search for academic literature using various tools a
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature%20Search/README.md">English</a> |
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature%20Search/README_zh.md">简体中文</a>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Literature%20Search/README_zh.md">中文</a>
 </p>
 
 ### Python
@@ -44,7 +44,7 @@ This tutorial will guide you through setting up a robust Python development envi
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Python/README.md">English</a> |
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Python/README_zh.md">简体中文</a>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Python/README_zh.md">中文</a>
 </p>
 
 ### Paper Reading
@@ -53,7 +53,7 @@ Learn how to effectively read and analyze papers. This tutorial provides strateg
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Paper%20Reading/README.md">English</a> |
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Paper%20Reading/README_zh.md">简体中文</a>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/Paper%20Reading/README_zh.md">中文</a>
 </p>
 
 ### PyTorch
@@ -62,7 +62,7 @@ This tutorial introduces the basics of PyTorch, a popular deep learning library 
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/PyTorch/README.md">English</a> |
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/PyTorch/README_zh.md">简体中文</a>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/PyTorch/README_zh.md">中文</a>
 </p>
 
 ### MongoDB
@@ -71,5 +71,5 @@ Learn how to install and configure MongoDB locally, set up MongoDB Compass for d
 
 <p>
     <a href="https://github.com/Collaborative-AI/tutorial/blob/main/MongoDB/README.md">English</a> |
-    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/MongoDB/README_zh.md">简体中文</a>
+    <a href="https://github.com/Collaborative-AI/tutorial/blob/main/MongoDB/README_zh.md">中文</a>
 </p>
